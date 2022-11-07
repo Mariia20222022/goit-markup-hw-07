@@ -1,0 +1,97 @@
+.section__header{
+    background-color: var(--attribute-color);
+        border-bottom: 1px solid var(--border-color);
+}
+.container__header{
+     display: flex;
+     align-items: center;
+        }
+.navigation {
+   margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.logo___main {
+    margin: 24px 93px 25px 0px;
+}
+.navigation__list{
+    display: flex;
+        gap: 50px;
+        justify-content: space-between;
+}
+.list__contacts{
+    display: flex;
+        gap: 50px;
+        align-items: center;
+}
+.navigation__contacts{
+        padding: 32px 0;
+            display: flex;
+            align-items: center;
+           
+        }
+.navigation__titles{
+    font-size: 14px;
+        letter-spacing: 0.02em;
+        line-height: 1.14;
+        color: var(--base-color);
+        transition-property: color;
+            transition-duration: var(--transition-duration);
+            transition-timing-function: var(--transition-timing-function);
+&:hover{
+color: var(--additional-color);
+}  
+&:focus{
+color: var(--additional-color);
+}         
+}
+
+.link__contacts{
+        font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: var(--text-color);
+                transition-property: color;
+                    transition-duration: var(--transition-duration);
+                    transition-timing-function: var(--transition-timing-function);
+
+&:hover{
+color: var(--additional-color);
+}
+&:focus{
+color: var(--additional-color);
+}
+}
+
+
+.contacts__icon{
+   
+            transition-property: fill;
+            transition-duration: var(--transition-duration);
+            transition-timing-function: var(--transition-timing-function);
+        }
+
+
+.envelope {
+    width: 16px;
+    height: 12px;
+    fill: var(--text-color);
+    margin-right: 10px;
+}
+
+
+.smartphone{
+    width: 10px;
+        height: 16px;
+        fill: var(--text-color);
+        margin-right: 10px;
+}
+.link__contacts:hover .contacts__icon{
+    fill: var(--additional-color);
+}
+.link__navigation{
+    padding: 32px 0;
+        display: block;
+}

@@ -1,0 +1,35 @@
+.button__footer {
+    display: flex;
+        width: 200px;
+        height: 50px;
+        border: 1px solid transparent;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+        background-color: var(--additional-color);
+        color: var(--attribute-color);
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        color: var(--attribute-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        text-align: center;
+        letter-spacing: 0.06em;
+        gap: 10px;
+        cursor: pointer;
+        box-shadow:  4px 4px rgba(0, 0, 0, 0.15);
+        transition-property: background-color, box-shadow;
+        transition-duration: var(--transition-duration);
+        transition-timing-function: var(--transition-timing-function);
+        &:focus{
+                background-color: var(--button-active);
+                box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
+                ;
+            }
+            &:hover {
+                background-color: var(--button-active);
+                box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
+                ;
+            }
+}
+

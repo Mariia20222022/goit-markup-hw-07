@@ -1,0 +1,39 @@
+.address__list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.link__map{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--attribute-color);
+    
+}
+.link__mail, .link__phone{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--contacts-color);
+        transition-property: color;
+        transition-duration: var(--transition-duration);
+        transition-timing-function: var(--transition-timing-function);
+        &:hover{
+                color: var(--additional-color);
+            }
+&:focus {
+    color: var(--additional-color);
+}
+
+&:focus{
+        color: var(--additional-color);
+    }
+    &:hover {
+    color: var(--additional-color);
+}
+}

@@ -1,0 +1,26 @@
+.hero__title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--attribute-color);
+margin: 0 auto 30px auto;
+
+    width: 696px;
+    text-align: center;
+   
+}
+.section__hero{
+    padding: 200px 0;
+    background-color: var(--section-color);
+}
+.button__hero{
+ margin-left: 477px;
+ margin-right: 477px;
+}
+.container__hero{
+    width: 1200px;
+        padding: 0px 15px;
+        margin: 0 auto;
+}
